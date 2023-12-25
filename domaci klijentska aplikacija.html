@@ -103,7 +103,7 @@
                 $("#item-list")
                     .append(renderItem(Item),dugme.parentElement.parentElement);
                 
-                sumaSvega += (Item["cena"]);
+                sumaSvega += (item["cena"]*item["komada"]);
                 $("#ukupnaSumaSvega").text(sumaSvega);
             
         }
